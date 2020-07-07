@@ -1,4 +1,6 @@
-
+body{
+    background-color: lightyellow;
+}
 a{
     font-family: 700;
 }
@@ -6,19 +8,26 @@ a{
 
     background-color: #f8f9fa;
 }
+.carousel-indicators .active{
+    background-color: orangered;
+    border-radius: 8px;
+    width: 35px;
+    opacity: 1;
+}
 .orange-text{
     color: orange;
 }
 #home{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
+    height: 90vh;
 }
 #phone , #laptop{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 p{
-    color: gray;
+    color: darkgray;
 }
 .black-btn{
     padding: 8px 23px;
@@ -48,7 +57,7 @@ p{
 .card{
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     box-shadow: 5px 5px 50px lightgrey;
 }
@@ -56,3 +65,7 @@ p{
     margin: auto;
    width: 200px;
 }
+.pale-order img{
+    width: 100%;
+}
+
